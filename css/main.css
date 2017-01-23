@@ -24,7 +24,7 @@ html {
   transition: all 250ms linear 120ms;
 }
 
-.ears:hover {
+.bear:hover #ears {
   transform: translate(0, -10px);
 }
 
