@@ -17,17 +17,24 @@ html {
 }
 
 #eyes {
-  transform-origin: center bottom;
+  transform-origin: center;
   animation: move 1s linear infinite;
 }
 
 @keyframes move {
 
   0% {
-    transform: translate(10px, 0);
+    transform: translate(0, 0);
   }
 
-  100% {
+  40% {
     transform: translate(-10px, 0);
+  }
+
+  0% {
+    transform: translate(12px, 0);
+  }
+  100% {
+    transform: translate(10px, 0);
   }
 }
