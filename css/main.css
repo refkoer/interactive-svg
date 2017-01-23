@@ -17,14 +17,18 @@ html {
 }
 
 #bear {
-  transform: translate(11px, 11px);
+  overflow: visible;
 }
 
 #ears {
   transition: all 250ms linear 120ms;
 }
 
-.bear:hover #ears {
+#bear:hover #right-ear {
+  transform: translate(0, -10px);
+}
+
+#bear:hover #left-ear {
   transform: translate(0, -10px);
 }
 
