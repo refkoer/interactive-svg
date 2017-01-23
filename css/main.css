@@ -16,6 +16,10 @@ html {
   box-sizing: inherit;
 }
 
+#bear {
+  transform: translate(11px, 11px);
+}
+
 #ears {
   transition: all 250ms linear 120ms;
 }
