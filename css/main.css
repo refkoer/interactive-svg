@@ -17,7 +17,7 @@ html {
 }
 
 #ears {
-  transition: all 250s linear 100ms;
+  transition: all 250ms linear 120ms;
 }
 
 .ears:hover {
