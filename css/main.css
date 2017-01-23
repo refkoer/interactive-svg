@@ -16,6 +16,18 @@ html {
   box-sizing: inherit;
 }
 
-.ears {
+#eyes {
+  transform-origin: center bottom;
+  animation: move 1s linear infinite;
+}
 
+@keyframes move {
+
+  0% {
+    transform: translate(10px, 0);
+  }
+
+  100% {
+    transform: translate(-10px, 0);
+  }
 }
